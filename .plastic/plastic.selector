@@ -1,0 +1,4 @@
+repository "InzGame@Bushmeen@cloud"
+  path "/"
+    br "/main"
+    co "/main"

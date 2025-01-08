@@ -1,0 +1,63 @@
+@"
+# This .gitignore file is specific to Unity projects.
+
+# Unity-generated files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Asset bundles
+/[Aa]ssets/[Ss]treaming[Aa]ssets/**/*.manifest
+/[Aa]ssets/[Ss]treaming[Aa]ssets/**/*.meta
+
+# Auto-generated files by Unity
+/[Aa]ssets/**/*.cs.meta
+/[Aa]ssets/**/*.unity.meta
+/[Aa]ssets/**/*.mat.meta
+
+# VSCode
+.vscode/
+
+# JetBrains Rider
+.idea/
+*.sln.*
+*.csproj.*
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.lock
+*.pidb
+*.booproj
+*.userprefs
+
+# Crash files
+*.stackdump
+
+# Unity Cache files
+[Ss]ystem/[Cc]ache/
+
+# Exclude user-specific files
+*.user
+*.preferences
+
+# Other
+/[Aa]ssets/**/*.meta
+/[Aa]ssets/**/*.overrideController.meta
+*.apk
+*.aab
+*.unitypackage
+.vs/
+
+"@ > .gitignore
